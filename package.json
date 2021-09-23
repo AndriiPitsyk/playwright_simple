@@ -1,0 +1,17 @@
+{
+  "name": "playwright_simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/registration.js --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "faker": "^5.5.1",
+    "mocha": "^8.3.2",
+    "playwright": "^1.10.0"
+  }
+}
